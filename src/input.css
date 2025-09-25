@@ -1,0 +1,28 @@
+@import "tailwindcss";
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+@theme {
+  --font-display-playfair: "Playfair Display", serif;
+  --font-display-raleway: "Raleway", sans-serif;
+}
+
+@utility container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@layer components {
+  .nav-links {
+    @apply text-lg font-medium font-display-raleway;
+  }
+  .font-playfair {
+    @apply font-display-playfair;
+  }
+  .font-railway {
+    @apply font-display-raleway;
+  }
+  .btn {
+    @apply font-display-raleway text-lg font-semibold text-[#25282B] py-2 px-6 border-2 rounded-lg;
+  }
+}
