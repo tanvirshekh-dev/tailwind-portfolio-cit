@@ -23,10 +23,10 @@
     @apply font-display-raleway;
   }
   .btn {
-    @apply font-display-raleway text-lg font-semibold text-[#25282B] py-2 px-6 border-2 rounded-lg;
+    @apply font-display-raleway text-lg font-semibold text-[#1d1f21] py-2 px-6 border-2 rounded-lg;
   }
   .secondary-btn{
-    @apply font-display-raleway text-lg font-semibold text-[#25282B] py-2 px-6 border-2 rounded-3xl;
+    @apply font-display-raleway text-lg font-semibold text-[#1d1f21] py-2 px-6 border-2 rounded-3xl;
   }
   .title{
     @apply font-bold text-5xl font-display-playfair text-center text-[#25282B] relative
