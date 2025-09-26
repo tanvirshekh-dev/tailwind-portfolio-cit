@@ -12,7 +12,7 @@
   margin: 0 auto;
 }
 
-@layer components {
+@layer components { 
   .nav-links {
     @apply text-lg font-medium font-display-raleway;
   }
@@ -24,5 +24,35 @@
   }
   .btn {
     @apply font-display-raleway text-lg font-semibold text-[#25282B] py-2 px-6 border-2 rounded-lg;
+  }
+  .secondary-btn{
+    @apply font-display-raleway text-lg font-semibold text-[#25282B] py-2 px-6 border-2 rounded-3xl;
+  }
+  .title{
+    @apply font-bold text-5xl font-display-playfair text-center text-[#25282B] relative
+  }
+  .title::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+    background-color: #FDC435;
+    width: 100px;
+    height: 4px;
+    transform: translate(-50%, -50%);
+    border-radius: 2px;
+  }
+  .project-card:nth-child(odd) .project-content{
+    @apply order-1
+  }
+  form label{
+    @apply font-display-raleway font-semibold text-base mb-2
+  }
+  form input,
+  form textarea{
+    @apply bg-white py-4 rounded-lg mb-6
+  }
+  form textarea{
+    @apply resize-y
   }
 }

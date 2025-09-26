@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./output.css" rel="stylesheet" />
   </head>
-  <body>
+  <body class="bg-[#f7f8fe]">
     <!-- nav section start -->
     <nav class="py-3">
       <div class="container">
@@ -26,7 +26,7 @@
     <!-- nav section end -->
 
     <!-- hero section start -->
-    <section>
+    <section class="min-h-dvh">
       <div class="container mt-14">
         <div class="flex items-center justify-between w-full">
           <div class="flex-start w-[486px]">
@@ -61,5 +61,106 @@
       </div>
     </section>
     <!-- hero section end -->
+
+    <!-- projects section start -->
+    <section>
+      <div class="container">
+        <h2 class="title">Projects</h2>
+        <!-- <div class="container"> -->
+          <!-- cart 01 -->
+          <div
+            class="flex justify-between items-center rounded-3xl overflow-hidden my-20 bg-white project-card container max-w-5xl h-[524px]"
+          >
+            <div
+              class="w-lg p-16 project-content"
+            >
+              <h2 class="text-[40px] font-bold font-playfair">Project Name</h2>
+              <p class="text-lg text-[#828282] font-railway py-6 w-[406px]">
+                I created this personal project in order to show how to create
+                an interface in Figma using a portfolio as an example.
+              </p>
+              <a href="#" class="secondary-btn">View Project</a>
+            </div>
+
+            <div class="flex-end h-full flex-1">
+              <img src="../assets/project-img-01.png" alt="" class="w-full h-full" />
+            </div>
+          </div>
+          <!-- cart 02 -->
+          <div
+            class="flex justify-between items-center rounded-3xl overflow-hidden my-20 bg-white project-card container max-w-5xl h-[524px]"
+          >
+            <div
+              class="w-lg p-16 project-content"
+            >
+              <h2 class="text-[40px] font-bold font-playfair">Project Name</h2>
+              <p class="text-lg text-[#828282] font-railway py-6 w-[406px]">
+                I created this personal project in order to show how to create
+                an interface in Figma using a portfolio as an example.
+              </p>
+              <a href="#" class="secondary-btn">View Project</a>
+            </div>
+
+            <div class="flex-end h-full flex-1">
+              <img src="../assets/project-img-02.png" alt="" class="w-full h-full" />
+            </div>
+          </div>
+          <!-- card 03 -->
+          <div
+            class="flex justify-between items-center rounded-3xl overflow-hidden my-20 bg-white project-card container max-w-5xl h-[524px]"
+          >
+            <div
+              class="w-lg p-16 project-content"
+            >
+              <h2 class="text-[40px] font-bold font-playfair">Project Name</h2>
+              <p class="text-lg text-[#828282] font-railway py-6 w-[406px]">
+                I created this personal project in order to show how to create
+                an interface in Figma using a portfolio as an example.
+              </p>
+              <a href="#" class="secondary-btn">View Project</a>
+            </div>
+
+            <div class="flex-end h-full flex-1">
+              <img src="../assets/project-img-03.png" alt="" class="w-full h-full" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- projects section end -->
+
+    <!-- contact section start  -->
+    <section>
+      <div class="container mt-32">
+        <h2 class="title mb-20">Contact</h2>
+        <div class="">
+          <form class="flex flex-col w-[450px] mx-auto">
+            <label for="name">Name</label>
+            <input type="text" id="name" />
+            <label for="email">Email</label>
+            <input type="email" id="email" />
+            <label for="text">Massage</label>
+            <textarea name="massage" id="text" cols="10" rows="6"></textarea>
+            <div class="btn bg-[#fdc435] border-transparent ml-auto w-[100px]">
+              <a href="#" class="text-right mt-0 block">Send</a>
+            </div>
+            <div class="flex items-center justify-center space-x-6 mt-14">
+              <img src="../icons/instagram.svg" alt="" />
+              <img src="../icons/linkedin.svg" alt="" />
+              <img src="../icons/massage.png" alt="" />
+            </div>
+            <p
+              class="text-base font-normal font-display-raleway text-center pt-8 text-[#828282]"
+            >
+              Madelyn Torff 2023
+            </p>
+          </form>
+        </div>
+      </div>
+      <div>
+        <img src="../assets/footer.png" alt="" class="w-full" />
+      </div>
+    </section>
+    <!-- contact section end -->
   </body>
 </html>
